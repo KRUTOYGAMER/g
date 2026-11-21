@@ -1,0 +1,157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* TGAnimeGlassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* TGAnimeGlassApp.swift */; };
+		A10000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Models.swift */; };
+		A10000000000000000000003 /* TelegramWebSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* TelegramWebSession.swift */; };
+		A10000000000000000000004 /* TelegramWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* TelegramWebView.swift */; };
+		A10000000000000000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* ContentView.swift */; };
+		A10000000000000000000006 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* SettingsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* TGAnimeGlassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGAnimeGlassApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* TelegramWebSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramWebSession.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* TelegramWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramWebView.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000008 /* TGAnimeGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGAnimeGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (D10000000000000000000002 /* TGAnimeGlass */, D10000000000000000000003 /* Products */);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* TGAnimeGlass */ = {
+			isa = PBXGroup;
+			path = TGAnimeGlass;
+			sourceTree = "<group>";
+			children = (
+				B10000000000000000000001 /* TGAnimeGlassApp.swift */,
+				B10000000000000000000002 /* Models.swift */,
+				B10000000000000000000003 /* TelegramWebSession.swift */,
+				B10000000000000000000004 /* TelegramWebView.swift */,
+				B10000000000000000000005 /* ContentView.swift */,
+				B10000000000000000000006 /* SettingsScreen.swift */,
+				B10000000000000000000007 /* Info.plist */,
+			);
+		};
+		D10000000000000000000003 /* Products */ = {isa = PBXGroup; children = (B10000000000000000000008 /* TGAnimeGlass.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* TGAnimeGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget "TGAnimeGlass" */;
+			buildPhases = (C10000000000000000000002 /* Sources */, C10000000000000000000001 /* Frameworks */, C10000000000000000000003 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = TGAnimeGlass;
+			productName = TGAnimeGlass;
+			productReference = B10000000000000000000008 /* TGAnimeGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = 2600; TargetAttributes = { E10000000000000000000001 = { CreatedOnToolsVersion = 26.0; }; }; };
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "TGAnimeGlass" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, ru);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* TGAnimeGlass */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000000000000000000001 /* TGAnimeGlassApp.swift in Sources */,
+			A10000000000000000000002 /* Models.swift in Sources */,
+			A10000000000000000000003 /* TelegramWebSession.swift in Sources */,
+			A10000000000000000000004 /* TelegramWebView.swift in Sources */,
+			A10000000000000000000005 /* ContentView.swift in Sources */,
+			A10000000000000000000006 /* SettingsScreen.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = TGAnimeGlass/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.koteyka.tganimeglass;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Debug; };
+		F10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_ENABLE_AGGRESSIVE_OBJC_MSGSEND = YES;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = TGAnimeGlass/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.koteyka.tganimeglass;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SDKROOT = iphoneos;
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Release; };
+		F10000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			SDKROOT = iphoneos;
+		}; name = Debug; };
+		F10000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			SDKROOT = iphoneos;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "TGAnimeGlass" */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000005 /* Debug */ , F10000000000000000000006 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget "TGAnimeGlass" */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000003 /* Debug */, F10000000000000000000004 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}
