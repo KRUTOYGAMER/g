@@ -33,7 +33,7 @@ jobs:
             -target TGAnimeGlass \
             -configuration Release \
             -sdk iphoneos \
-            -derivedDataPath "$RUNNER_TEMP/TGAnimeGlassDerivedData" \
+            CONFIGURATION_BUILD_DIR="$RUNNER_TEMP/TGAnimeGlassBuild" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
@@ -43,7 +43,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          APP_PATH="$RUNNER_TEMP/TGAnimeGlassDerivedData/Build/Products/Release-iphoneos/TGAnimeGlass.app"
+          APP_PATH="$RUNNER_TEMP/TGAnimeGlassBuild/TGAnimeGlass.app"
           test -d "$APP_PATH"
           test -f "$APP_PATH/Info.plist"
           test -f "$APP_PATH/TGAnimeGlass"
